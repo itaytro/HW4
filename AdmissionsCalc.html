@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Colledge Admissions Calculator</title>
+    <link rel="stylesheet" type="text/css" href="AdmissionsCalc.css">
+    
+</head>
+
+<body>
+
+    <form>
+        <h1>Colledge Admissions Calculator</h1>
+
+        <div><label>age:</label><input type="number" id="ageInput"></div>
+        <div><fieldset>
+                <legend>Select from the below options:</legend>
+                <label>Psychometric and Bagrut</label><input type="radio" name="gradeSource" id="radioPsych" onclick="updateFields()">
+                <label>Mechina and Bagrut</label><input type="radio" name="gradeSource" id="radioMech" onclick="updateFields()">
+            </fieldset></div>
+        <div><label>Psychometric Grade:</label><input type="number" id="psychInput"></div>
+        <div><label>Bagrut Grade:</label><input type="number" id="bagrutInput"></div>
+        <div><label>Mechina Grade:</label><input type="number" id="mechinaInput"></div>
+        <div><input type="submit" value="validate" id="validateBtn" onclick="validate()"></div>
+        <div id="t1"></div>
+    </form>
+
+    <script src="AdmissionsCalc.js"></script>
+
+</body>
+
+</html>
