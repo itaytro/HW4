@@ -5,7 +5,7 @@ This project was developed as part of Assignment 4 in the Web Programming course
 The application is an interactive web-based calculator that uses HTML, CSS, and JavaScript to validate candidate data and determine admission status.
 
 ## GitHub Pages Website
-You can the project online here: https://itaytro.github.io/HW4_Hila-Itay-Paz/
+You can the project online here: https://itaytro.github.io/HW4/
 
 ### Key Features:
 * Dynamic UI: The form fields update dynamically based on the selected track (Psychometric or Mechina).
